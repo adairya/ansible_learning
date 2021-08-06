@@ -1,0 +1,7 @@
+---
+- hosts: "{{ target }}"
+  become: true
+  roles:
+    - create_admin_users
+    - remove_old_users 
+...

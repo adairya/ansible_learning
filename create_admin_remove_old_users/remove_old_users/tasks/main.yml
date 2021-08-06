@@ -1,0 +1,13 @@
+---
+- name: Read variables for users to be removed  
+  include_vars:
+    file: vars/delete_users.yml
+
+- name: Delete users
+  user:
+    name: "{{ item.name }}"
+    comment: "{{ item.comment }}"
+    uid: "{{ item.uid }}"
+    state: absent
+    remove: yes
+  with_items: "{{ delete_users }}"

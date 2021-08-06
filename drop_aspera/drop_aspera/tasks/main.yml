@@ -1,0 +1,9 @@
+---
+- name: drop_aspera_untar      
+  unarchive:
+    src: files/aspera-linux.tar
+    dest: /usr/local/bin
+    owner: ansible
+    group: ansible
+    mode: 700
+...

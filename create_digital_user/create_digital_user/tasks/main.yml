@@ -1,0 +1,26 @@
+---
+- name: Read encrypted dig password file
+  include_vars:
+   create_digital_user/vault/vars.yml
+- name: create digital group
+  group:
+    name: digital
+    gid: 1011
+    state: present
+
+- name: Create digital user
+  user:
+    name: digital
+    uid: 1011
+    password: "{{ dig_pw }}"
+    groups: wheel
+    append: yes
+
+- name:  Modify Sudoers File
+  replace:
+    path: /etc/sudoers
+    regexp: "cineasset"
+    replace: "digital"
+    validate: 'visudo -cf %s'
+    
+...

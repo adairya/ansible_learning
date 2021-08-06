@@ -1,0 +1,23 @@
+---
+users:
+  - name: bgraver
+    comment: Bill Graver
+    uid: 1100
+    gid: 1100
+  - name: jely
+    comment: Jim Ely
+    uid: 1101
+    gid: 1101
+  - name: ralcala
+    comment: Rich Alcala
+    uid: 1102
+    gid: 1102
+  - name: efine
+    comment: Ezra Fine
+    uid: 1104
+    gid: 1104
+  - name: radair
+    comment: Riley radair
+    uid: 1106
+    gid: 1106
+...

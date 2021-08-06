@@ -1,0 +1,35 @@
+---
+delete_users:
+  - name: bmarymor
+    comment: Blake Marymor
+    uid: 1005
+  - name: nalconcel
+    comment: Nathan Alconcel
+    uid: 1004
+  - name: cgiovanella
+    comment: Corey Giovanella
+    uid: 1008
+  - name: ytai
+    comment: Yeann Tai
+    uid: 1501
+  - name: kthiara
+    comment: Karanvir Thiara
+    uid: 1501
+  - name: kthiara
+    comment: Karanvir Thiara
+    uid: 1502
+  - name: nexposepost
+    comment: nexpose service account
+    uid: 1052
+  - name: vpundit
+    comment: Varune Pundit
+    uid: 1010
+  - name: psaimbhi
+    comment: Parminder Saimbhi
+    uid: 1105
+    gid: 1105
+  - name: ihaddock
+    comment: Ian Haddock
+    uid: 1103
+    gid: 1103
+...

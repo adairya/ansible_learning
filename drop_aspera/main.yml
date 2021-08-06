@@ -1,0 +1,6 @@
+---
+- hosts: "{{ target }}"
+  become: true
+  roles:
+    - drop_aspera 
+...

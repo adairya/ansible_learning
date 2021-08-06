@@ -1,0 +1,4 @@
+#ansible_learning/create_digital_user/create_digital_user/vault/vault_key
+#ansible_learning/drop_aspera/drop_aspera/files/aspera-linux.tar
+/home/ansible/ansible_learning/drop_aspera/drop_aspera/files/aspera-linux.tar
+/home/ansible/ansible_learning/create_digital_user/create_digital_user/vault/vault_key
