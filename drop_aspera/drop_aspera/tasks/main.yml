@@ -3,7 +3,7 @@
   unarchive:
     src: files/aspera-linux.tar
     dest: /usr/local/bin
-    owner: ansible
-    group: ansible
-    mode: 700
+    owner: root
+    group: root
+    mode: 755
 ...
